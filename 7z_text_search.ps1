@@ -3,8 +3,9 @@
 # This script will search for a keyword inside text files that are in 7z archives. It will recursively search the entire folder tree provided. 
 # Setup and Use:
 #   1. `winget install 7z`
-#   2. Ensure the policy is enable to allow powershell scripts to run `Set-ExecutionPolicy -ExecutionPolicy Bypass`
-#   3. Run and supply optional parameters
+#   2. Add the 7zip folder into your PATH variable.
+#   3. Ensure the policy is enable to allow powershell scripts to run `Set-ExecutionPolicy -ExecutionPolicy Bypass`
+#   4. Run and supply optional parameters
 #       `.\7z_text_search.ps1 -LogDir "C:\logs\7z_text_search" -Keyword "Discover" -SearchFolders "D:\TOYO - 2024-11-13", "D:\TOYO - 2024-11-19", "D:\TOYO - 2024-11-25", "D:\TOYO - 2024-12-2"`
 
 param (
